@@ -32,7 +32,7 @@ This will give us a file structure like the following:
 
 Next, you'll need to choose if you want to write your project as ES module, TypeScript, or CommonJS. We're not going to go into detail on TypeScript in this guide, but generally speaking the code from the ES Module should be transferrable.
 
-This basically boils down to preference. Most modern projects these days are written using TypeScript or ESM. Older Node projects tend to be written in CommonJS. It doesn't matter too much though. The main difference is the way to import stuff. In CommonJS, you use `require()` and in ESM/TS, you use the `import` statement. umejs and umejs-red-maple work great with both!
+This basically boils down to preference. Most modern projects these days are written using TypeScript or ESM. Older Node projects tend to be written in CommonJS. It doesn't matter too much though. The main difference is the way to import stuff. In CommonJS, you use `require()` and in ESM/TS, you use the `import` statement. umejs and umejs-momiji work great with both!
 
 If you want to use ES, open your favourite text editor and open `package.json`. Change the line where it says `module` to your preference.
 
@@ -49,10 +49,10 @@ If you want to use ES, open your favourite text editor and open `package.json`. 
 }
 ```
 
-Next, let's install all we need! We'll need Express v5, umejs and of course umejs-red-maple! We can do this by simply running `npm install` like so:
+Next, let's install all we need! We'll need Express v5, umejs and of course umejs-momiji! We can do this by simply running `npm install` like so:
 
 ```
-npm i express@5 @dantenl/umejs @dantenl/umejs-red-maple
+npm i express@5 @dantenl/umejs @dantenl/umejs-momiji
 ```
 
 ## Initialising umejs
@@ -90,7 +90,7 @@ const PORT = 3000;
 // --- Initialise umejs ---
 const umeConfig = ume({
     contentDir: path.join(__dirname, 'content'),
-    themes: ['@dantenl/umejs-red-maple'],
+    themes: ['@dantenl/umejs-momiji'],
     // ! ^crucial^ !
 });
 

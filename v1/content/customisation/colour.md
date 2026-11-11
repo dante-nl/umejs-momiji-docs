@@ -5,7 +5,7 @@ title: 'Customising the colours'
 # Customising the colours
 
  ̰
-umejs-red-maple allows for changing up the colours via the CSS variables! You can change them using for both light mode and dark mode.
+umejs-momiji allows for changing up the colours via the CSS variables! You can change them using for both light mode and dark mode.
 
 ## How to change them
 
@@ -13,7 +13,7 @@ It's quite simple! Inside your umejs config object, add a new object called `con
 
 ```js
 const umeConfig = ume({
-    themes: ['@dantenl/umejs-red-maple'],
+    themes: ['@dantenl/umejs-momiji'],
     config: {
         colors: {
             light: {

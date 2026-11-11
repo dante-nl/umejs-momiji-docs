@@ -11,10 +11,10 @@ const PORT = 9420;
 const umeConfig = ume({
     contentDir: path.join(__dirname, 'v1', 'content'),
 
-    themes: ['@dantenl/umejs-red-maple'],
+    themes: ['@dantenl/umejs-momiji'],
     config: {
-        siteTitle: 'umejs-red-maple',
-        siteDescription: 'Documentation for umejs-red-maple, a theme for umejs',
+        siteTitle: 'umejs-momiji',
+        siteDescription: 'Documentation for umejs-momiji, a theme for umejs',
         topbarLinks: [],
         colors: {},
     },

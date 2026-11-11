@@ -6,7 +6,7 @@ title: 'Customising the sidebar'
 
 The sidebar is a crucial list for any documentation website. It shows all the different articles that the site has to offer.
 
-red-maple automatically builds one for you, but it may not be exactly how you want it. It may be the wrong order or perhaps it includes too many pages. However, do not fret, as the sidebar can easily be modified!
+momiji automatically builds one for you, but it may not be exactly how you want it. It may be the wrong order or perhaps it includes too many pages. However, do not fret, as the sidebar can easily be modified!
 
 > [!TIP]
 > To rebuild the sidebar, simply stop the server and start it up again! All changes will then be reflected.
