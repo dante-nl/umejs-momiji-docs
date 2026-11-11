@@ -4,7 +4,6 @@ title: 'Customising the colours'
 
 # Customising the colours
 
- ̰
 umejs-momiji allows for changing up the colours via the CSS variables! You can change them using for both light mode and dark mode.
 
 ## How to change them
