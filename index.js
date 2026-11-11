@@ -17,8 +17,11 @@ const umeConfig = ume({
         siteDescription: 'Documentation for umejs-momiji, a theme for umejs',
         topbarLinks: [],
         colors: {},
+        favicon: '/_ume/assets/favicon.ico',
+        logo: '/_ume/assets/umejs-momiji-logo-full.png',
     },
     mode: 'development',
+    assetsDir: path.join(__dirname, 'assets'),
 });
 
 // for (const dir of umeConfig.ctx.assetsDirs) {
