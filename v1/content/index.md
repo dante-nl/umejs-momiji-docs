@@ -44,6 +44,8 @@ For more details, please visit the [Getting started](/getting-started) page.
 
 ## About
 
-umejs-momiji is a theme made by the same developer behind umejs: dante*nl. This theme has not been made as \_the* definitive theme for umejs, rather as an example where others can build upon, while also increasing the accessibility to umejs, as making all this yourself might be a bit daunting to some.
+umejs-momiji is a theme made by the same developer behind umejs: dante_nl. This theme has not been made as _the_ definitive theme for umejs, rather as an example where others can build upon, while also increasing the accessibility to umejs, as making all this yourself might be a bit daunting to some.
 
 I don't intend to give this theme any preferential treatment over any themes that follow after this. As much knowledge as possible is on the [dev branch](https://github.com/dante-nl/umejs/tree/dev) for umejs. However, the documentation can be a bit behind whenever I work on a new release. **Documentation updates and umejs updates will release on the same day though!** If you're a theme developer, or interested in becoming one, just send me a DM on Discord (@dante_nl) or send me an e-mail: `dante at dantenl dot com` (spelled like this to prevent dumb bots from spamming me)
+
+Also, if you're curious about the name: I wanted a theme with a red accent colour. Originally it was called umejs-red-maple, but I changed it during development because I learnt the Japanese word for the maple leafs because of a manga I read so I decided to change it to umejs-momiji to reflect that!
