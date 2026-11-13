@@ -24,9 +24,9 @@ const umeConfig = ume({
     assetsDir: path.join(__dirname, 'assets'),
 });
 
-// for (const dir of umeConfig.ctx.assetsDirs) {
-//     app.use('/_ume/assets', express.static(dir, { maxAge: '1y', immutable: true, etag: true }));
-// }
+for (const dir of umeConfig.ctx.assetsDirs) {
+    app.use('/_ume/assets', express.static(dir, { maxAge: '1y', immutable: true, etag: true }));
+}
 
 app.use('/{*slug}', umeConfig);
 
