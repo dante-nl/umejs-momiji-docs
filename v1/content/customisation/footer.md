@@ -9,7 +9,7 @@ The footer of the page is the text at the bottom. By default, they show somethin
 
 ## How it works
 
-The footer is rendered using a [partial](https://ume.dantenl.com/v1/config/partials-dir). These are basically a little string to tell umejs to import content from a different file, either one defined by a theme, or from the user. If a theme tries to call a partial, but that same name has been defined by the user, the one made by the user takes priority. This mechanic allows you to create a custom footer!
+The footer is rendered using a [partial](https://ume.dantenl.com/v1/config/partials-dir). These are basically a little strings to tell umejs to import content from a different file, either one defined by a theme, or from the user. If a theme tries to call a partial, but that same name has been defined by the user, the one made by the user takes priority. This mechanic allows you to create a custom footer!
 
 
 ## How to define a custom footer
@@ -36,3 +36,18 @@ const umeConfig = ume({
 
 > [!TIP]
 > To copy this exact code, you also need to import `path` as well. For full details on how to do that, please check the [Getting started](http://localhost:9420/getting-started) page!
+
+To then change your footer, simply modify the `footer.ume.html` file, to something like this for example:
+
+```html
+<footer class="footer">
+    <p>&copy; \{year} \{siteTitle}</p>
+    <p>
+        made using
+        <a href="https://ume.dantenl.com" target="_blank" rel="noopener noreferrer">umejs</a>
+        using umejs-momiji as theme
+    </p>
+    <p>don't eat your computer mouse.</p>
+</footer>
+
+```
