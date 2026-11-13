@@ -1,5 +1,6 @@
 ---
 title: 'Customising the site name and description'
+sidebar_order: 30
 ---
 
 # Customising the site name and description

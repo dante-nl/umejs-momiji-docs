@@ -1,5 +1,6 @@
 ---
 title: 'Showcasing your logo'
+sidebar_order: 40
 ---
 
 # Showcasing your logo

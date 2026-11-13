@@ -1,5 +1,6 @@
 ---
 title: 'Customising the footer'
+sidebar_order: 50
 ---
 
 # Customising the footer

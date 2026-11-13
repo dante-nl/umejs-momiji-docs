@@ -1,5 +1,6 @@
 ---
 title: 'Customising the sidebar'
+sidebar_order: 20
 ---
 
 # Customising the sidebar

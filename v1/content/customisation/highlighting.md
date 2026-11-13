@@ -1,6 +1,6 @@
 ---
 title: 'Highlighting'
-sidebar_order: 999
+sidebar_order: 60
 ---
 
 # Highlighting

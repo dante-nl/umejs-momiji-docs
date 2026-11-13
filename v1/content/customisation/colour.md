@@ -1,5 +1,6 @@
 ---
 title: 'Customising the colours'
+sidebar_order: 10
 ---
 
 # Customising the colours
